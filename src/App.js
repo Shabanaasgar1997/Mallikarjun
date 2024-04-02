@@ -7,11 +7,13 @@ import Ref from "./Hooks/useRef/Ref";
 import ReducersConcept from "./Hooks/useReducer/ReducersConcept";
 import Memoization from "./Hooks/useMemo/Memoization";
 import Back from "./Hooks/useCallback/Back";
+import Home from "./Home";
 
 function App() {
   return (
     <>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/state" element={<State />} />
         <Route path="/effect" element={<Effect />} />
         <Route path="/context" element={<Parent />} />
