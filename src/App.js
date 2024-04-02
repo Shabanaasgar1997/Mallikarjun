@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<State />} />
+        <Route path="/state" element={<State />} />
         <Route path="/effect" element={<Effect />} />
         <Route path="/context" element={<Parent />} />
         <Route path="/ref" element={<Ref />} />
